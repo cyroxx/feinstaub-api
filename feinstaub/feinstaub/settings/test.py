@@ -3,6 +3,8 @@
 import os
 from .base import *
 
+DEBUG = True
+
 # ######### TEST SETTINGS
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 TEST_DISCOVER_TOP_LEVEL = SITE_ROOT
