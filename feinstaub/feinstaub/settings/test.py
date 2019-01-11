@@ -1,9 +1,10 @@
 # coding=utf-8
 
 import os
-from .base import *
 
 DEBUG = True
+
+from .base import *
 
 # ######### TEST SETTINGS
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
