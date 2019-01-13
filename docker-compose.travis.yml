@@ -11,5 +11,7 @@ services:
      - './manage.py'
     links:
      - db
+    depends_on:
+      - db
   db:
     image: postgres:9.6
